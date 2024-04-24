@@ -6,7 +6,7 @@ import LoadingScreen from './LoadingScreen';
 // import Canvas from './Canvas';
 // import Aurora from './Aurora';
 import {motion, AnimatePresence} from "framer-motion";
-// import BeatingHeart from './BeatingHeart';
+import BeatingHeart from './BeatingHeart';
 import eye from './assets/trinity-eye.svg';
 // import FlowerOfLife from './FlowerOfLife';
 
@@ -41,7 +41,7 @@ function App() {
               initial ={{ opacity: 0 }}
               animate={{ opacity: 1, y: -33}}
               transition={{ delay: 3, duration: 3 }}>
-            {/* <BeatingHeart/> */}
+            <BeatingHeart/>
           </motion.div>
           {/* <FlowerOfLife/>           */}
         </motion.div>   
