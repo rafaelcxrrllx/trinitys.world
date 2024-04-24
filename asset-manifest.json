@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/trinitys.world/static/css/main.eabc9134.css",
+    "main.js": "/trinitys.world/static/js/main.23cc7e48.js",
+    "static/js/453.1d42ff05.chunk.js": "/trinitys.world/static/js/453.1d42ff05.chunk.js",
+    "static/media/trinity.svg": "/trinitys.world/static/media/trinity.900b4e70346a2507890d0cfc3090d877.svg",
+    "static/media/clicker.svg": "/trinitys.world/static/media/clicker.542fb5d55b405e6496ad.svg",
+    "static/media/logo.svg": "/trinitys.world/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/trinitys.world/index.html",
+    "main.eabc9134.css.map": "/trinitys.world/static/css/main.eabc9134.css.map",
+    "main.23cc7e48.js.map": "/trinitys.world/static/js/main.23cc7e48.js.map",
+    "453.1d42ff05.chunk.js.map": "/trinitys.world/static/js/453.1d42ff05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eabc9134.css",
+    "static/js/main.23cc7e48.js"
+  ]
+}
