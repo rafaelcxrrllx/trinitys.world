@@ -21,7 +21,7 @@ function NavBar() {
         className="nav">
         <div>
             <div className='logo'>
-                <img onClick={toggleMenu} src={logo} className="App-logo" alt="logo" />
+                <img onClick={toggleMenu} src={logo}  alt="logo" />
             </div>
             <div onClick={toggleMenu} id="mainListDiv" className={`main_list ${isOpen ? 'show_list' : ''}`}>
                     <ul className="navlinks">

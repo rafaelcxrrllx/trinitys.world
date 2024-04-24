@@ -1,24 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar';
+import React, { useState } from 'react';
+import './styles.css'; // Global Styling
+// import LoadingScreen from './LoadingScreen';
+// import Canvas from './Canvas';
+// import Aurora from './Aurora';
+import {motion, AnimatePresence} from "framer-motion";
+// import BeatingHeart from './BeatingHeart';
+import eye from './assets/trinity-eye.svg';
+// import FlowerOfLife from './FlowerOfLife';
+
 function App() {
   return (
     <div className="App">
       <NavBar/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+         <motion.div 
+         initial={{ opacity: 0 }} // Initial opacity and scale of the image
+         animate={{ opacity: 1}} // Fade in and scale in animation
+         transition={{ delay: 1.6, duration: 1 }} // Duration of the animation
+          className="App-container">
+            <motion.img 
+         animate={{ y: [0, -33, 0] }} // Scale animation
+         transition={{ duration: 6, repeat: Infinity }} // Repeat animation indefinitely
+          className='eye' src={eye} />
+            <motion.div
+              initial ={{ opacity: 0 }}
+              animate={{ opacity: 1, y: -33}}
+              transition={{ delay: 2, duration: 3 }}>
+            <h1>Evoking Divinity To Amplify Human Consciousness.</h1>
+          </motion.div>
+          <motion.div
+              initial ={{ opacity: 0 }}
+              animate={{ opacity: 1, y: -33}}
+              transition={{ delay: 3, duration: 3 }}>
+            <h3>Los Angeles, California.</h3>
+          </motion.div>
+          <motion.div
+              initial ={{ opacity: 0 }}
+              animate={{ opacity: 1, y: -33}}
+              transition={{ delay: 3, duration: 3 }}>
+            {/* <BeatingHeart/> */}
+          </motion.div>
+          {/* <FlowerOfLife/>           */}
+        </motion.div>   
+      {/* <Canvas/> */}
+      </header>     
     </div>
   );
 }

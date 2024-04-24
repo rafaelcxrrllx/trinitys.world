@@ -1,20 +1,16 @@
+
 .App {
   text-align: center;
+  position: relative;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.eye {
+  width: 33%;
+  margin-bottom: 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +20,56 @@
   color: white;
 }
 
+.App-container {
+  z-index: 1;
+  text-align: center;
+  margin-top: 15%;
+  width: 100%;
+}
+
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Small screens (phones) */
+@media (max-width: 600px) {
+
+  .App-container {
+    margin-top: 70%;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 3px;
   }
 }
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  .App-container {
+    margin-top: 40%;
+  }
+  h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (min-width: 1025px) {
+
+
+  .App-container {
+    margin-top: 14%;
+  }
+  h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 3px;
+  }
+
+}
+
