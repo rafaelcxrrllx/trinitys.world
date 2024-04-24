@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from './NavBar';
 import React, { useState } from 'react';
 import './styles.css'; // Global Styling
-// import LoadingScreen from './LoadingScreen';
+import LoadingScreen from './LoadingScreen';
 // import Canvas from './Canvas';
 // import Aurora from './Aurora';
 import {motion, AnimatePresence} from "framer-motion";
@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <LoadingScreen/>
       <header className="App-header">
          <motion.div 
          initial={{ opacity: 0 }} // Initial opacity and scale of the image
