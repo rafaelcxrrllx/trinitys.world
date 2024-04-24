@@ -63,7 +63,7 @@ body {
   @media (max-width: 600px) {
     .App-logo {
         width: 33%;
-        margin-top: 20%;
+        margin-top: -140%;
     }
   }
   
@@ -71,7 +71,7 @@ body {
   @media (min-width: 601px) and (max-width: 1024px) {
     .App-logo {
         width: 20%;
-        margin-top: 0%;
+        margin-top: -100%;
     }  
   
   }
@@ -79,7 +79,7 @@ body {
   @media (min-width: 1025px) {
     .App-logo {
         width: 14%;
-        margin-top: 0%;
+        margin-top: -50%;
     }  
   
   }
