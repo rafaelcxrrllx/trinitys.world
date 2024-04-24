@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 import React, { useState } from 'react';
 import './styles.css'; // Global Styling
 import LoadingScreen from './LoadingScreen';
-// import Canvas from './Canvas';
+import Canvas from './Canvas';
 // import Aurora from './Aurora';
 import {motion, AnimatePresence} from "framer-motion";
 import BeatingHeart from './BeatingHeart';
@@ -45,7 +45,7 @@ function App() {
           </motion.div>
           {/* <FlowerOfLife/>           */}
         </motion.div>   
-      {/* <Canvas/> */}
+      <Canvas/>
       </header>     
     </div>
   );
