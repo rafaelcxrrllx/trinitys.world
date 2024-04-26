@@ -8,7 +8,7 @@ import Canvas from './Canvas';
 import {motion, AnimatePresence} from "framer-motion";
 import BeatingHeart from './BeatingHeart';
 import eye from './assets/trinity-eye.svg';
-// import FlowerOfLife from './FlowerOfLife';
+import FlowerOfLife from './FlowerOfLife';
 
 function App() {
   return (
@@ -43,7 +43,8 @@ function App() {
               transition={{ delay: 3, duration: 3 }}>
             <BeatingHeart/>
           </motion.div>
-          {/* <FlowerOfLife/>           */}
+          <FlowerOfLife/> 
+           
         </motion.div>   
       <Canvas/>
       </header>     

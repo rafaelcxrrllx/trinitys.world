@@ -1,13 +1,13 @@
 
 .container {
   position: relative;
-  background-color: black;
   margin-top: 30%;
   display: flexbox;
   justify-content: center;
   align-items: center;
   padding-bottom: 5%;
-  z-index: 2;
+  background: linear-gradient(to bottom, #191970, #121251,  #000);
+  z-index: 1;
 }
 
 .sunmoon {

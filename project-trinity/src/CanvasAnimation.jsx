@@ -79,7 +79,7 @@ export function startCanvasAnimation() {
     
         // stars
         function Star(options){
-            this.size = Math.random()*1.2;
+            this.size = Math.random()*3;
             this.speed = Math.random()*0;
             this.x = options.x;
             this.y = options.y;
@@ -162,8 +162,8 @@ export function startCanvasAnimation() {
         function animate(){
             bgCtx.fillStyle = '#191970';
             bgCtx.fillRect(0,0,width,height);
-            bgCtx.fillStyle = 'gold';
-            bgCtx.strokeStyle = 'gold';
+            bgCtx.fillStyle = 'white';
+            bgCtx.strokeStyle = 'white';
     
             var entLen = entities.length;
           

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, filterRef } from 'react';
 import './styles.css'; // Global Styling
 import './BeatingHeart.css'; 
-// import { startAuroraAnimation } from './AuroraAnimation';
 import {motion, AnimatePresence} from "framer-motion";
 import sunmoon from './assets/sun-moon.svg';
 

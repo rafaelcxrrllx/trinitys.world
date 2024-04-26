@@ -30,7 +30,7 @@ function NavBar() {
                         <li><a href="#">Bio</a></li>
                     </ul>
                 </div>
-                <span className="navTrigger">
+                <span  className="navTrigger">
                     <i></i>
                     <i></i>
                     <i></i>
