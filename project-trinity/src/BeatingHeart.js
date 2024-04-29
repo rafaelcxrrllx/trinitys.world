@@ -24,9 +24,9 @@ function BeatingHeart() {
          transition={{ duration: 6, repeat: Infinity }} // Repeat animation indefinitely
           className='skeleton' src={skeleton} />
         <div id="left-intro">
-          <h3>
+          <h2>
             Hello, my name is Trinity
-          </h3>
+          </h2>
           
           </div>
           <div id="right-intro">

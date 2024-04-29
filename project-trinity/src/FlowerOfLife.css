@@ -1,6 +1,6 @@
 
 #flower {
-    margin-top: 5%;
+    margin-top: 20%;
 }
 
 .Spinning-logo {
@@ -18,9 +18,9 @@
 }
 
 .Paragraph {
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 10%;
 }
 
 .Paragraph p {
@@ -42,4 +42,34 @@
     to {
       transform: rotate(360deg);
     }
+  }
+
+  @media (max-width: 600px) {
+    #flower {
+      margin-top: 33%;
+  }
+    
+    .Paragraph {
+      margin-left: 15%;
+      margin-right: 15%;
+      padding-bottom: 5%;
+    }
+  }
+  
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    #flower {
+      margin-top: 33%;
+  }
+    
+    .Paragraph {
+      margin-left: 15%;
+      margin-right: 15%;
+      padding-bottom: 5%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+
+  
   }
