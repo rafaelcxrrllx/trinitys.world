@@ -1,4 +1,5 @@
 
+
 .navTrigger {
     display: none;
   }
@@ -9,7 +10,6 @@
     text-align: center;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
-    /* mix-blend-mode: overlay; */
     z-index: 10;
   }
 
@@ -79,6 +79,8 @@
     transform: scale(1);
     z-index: 4;
   }
+
+  
 
   /* Small screens (phones) */
   @media (max-width: 600px) {
@@ -156,6 +158,25 @@
     .nav div.media_button {
         display: block;
     }
+
+    .menu {
+      color: #fff;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-top: 20%;
+      align-items: end;
+      margin-right: 10%;
+      font-size: 24px;
+      font-family: "Karla";
+
+  }
+  .menu ul {
+      list-style: none;
+  }
+  .menu ul li {
+      line-height: 2.5;
+  }
   
   }
 
@@ -199,41 +220,7 @@
     height: 4px;    
   }
   
-  .navTrigger i:nth-child(1) {
-    -webkit-animation: outT 0.8s backwards;
-    animation: outT 0.8s backwards;
-    -webkit-animation-direction: reverse;
-    animation-direction: reverse;
-  }
-  
   .navTrigger i:nth-child(2) {
-    margin: 5px 0;
-    -webkit-animation: outM 0.8s backwards;
-    animation: outM 0.8s backwards;
-    -webkit-animation-direction: reverse;
-    animation-direction: reverse;
-  }
-  
-  .navTrigger i:nth-child(3) {
-    -webkit-animation: outBtm 0.8s backwards;
-    animation: outBtm 0.8s backwards;
-    -webkit-animation-direction: reverse;
-    animation-direction: reverse;
-  }
-  
-  .navTrigger.active i:nth-child(1) {
-    -webkit-animation: inT 0.8s forwards;
-    animation: inT 0.8s forwards;
-  }
-  
-  .navTrigger.active i:nth-child(2) {
-    -webkit-animation: inM 0.8s forwards;
-    animation: inM 0.8s forwards;
-  }
-  
-  .navTrigger.active i:nth-child(3) {
-    -webkit-animation: inBtm 0.8s forwards;
-    animation: inBtm 0.8s forwards;
-  }
+    margin: 7px 0;
 
-  
+  }
