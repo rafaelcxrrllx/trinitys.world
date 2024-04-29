@@ -10,6 +10,7 @@ import BeatingHeart from './BeatingHeart';
 import eye from './assets/trinity-eye.svg';
 import FlowerOfLife from './FlowerOfLife';
 
+
 function App() {
   return (
     <div className="App">
@@ -43,7 +44,7 @@ function App() {
               transition={{ delay: 3, duration: 3 }}>
             <BeatingHeart/>
           </motion.div>
-          <FlowerOfLife/>  
+          <FlowerOfLife/> 
         </motion.div>   
         <Canvas/>
       </header>     

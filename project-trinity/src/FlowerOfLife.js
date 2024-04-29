@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import flower from './assets/flower.svg';
 import "./FlowerOfLife.css";
 import {motion, AnimatePresence} from "framer-motion";
-
+import Flower from './Flower';
 
 function FlowerOfLife() {
 
@@ -25,7 +25,7 @@ function FlowerOfLife() {
                 and be loved! Believe me when I say you are unconditional love. 
             </p>
         </div>
-       
+        <Flower/>
         </div>
         
     );

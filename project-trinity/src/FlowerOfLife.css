@@ -9,7 +9,9 @@
   }
 
 .FlowerDiv {
-    background-color: black;
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); */
+    background: linear-gradient(to top, #191970, #121251,  #000);
+    opacity: 100%;
     width: 100%;
     top: 0;
     margin: 0;
