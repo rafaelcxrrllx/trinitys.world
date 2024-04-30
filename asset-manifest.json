@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trinitys.world/static/css/main.58913b4e.css",
+    "main.css": "/trinitys.world/static/css/main.fed58d0c.css",
     "main.js": "/trinitys.world/static/js/main.4e4cea20.js",
     "static/js/453.1d42ff05.chunk.js": "/trinitys.world/static/js/453.1d42ff05.chunk.js",
     "static/media/skeleton.svg": "/trinitys.world/static/media/skeleton.8ba7dbef0fac7cc14a6d0cf9b2f77a93.svg",
@@ -12,12 +12,12 @@
     "static/media/clicker.svg": "/trinitys.world/static/media/clicker.542fb5d55b405e6496ad.svg",
     "static/media/trinity.svg": "/trinitys.world/static/media/trinity.157d41607db79f2e1018a3cb679127d0.svg",
     "index.html": "/trinitys.world/index.html",
-    "main.58913b4e.css.map": "/trinitys.world/static/css/main.58913b4e.css.map",
+    "main.fed58d0c.css.map": "/trinitys.world/static/css/main.fed58d0c.css.map",
     "main.4e4cea20.js.map": "/trinitys.world/static/js/main.4e4cea20.js.map",
     "453.1d42ff05.chunk.js.map": "/trinitys.world/static/js/453.1d42ff05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58913b4e.css",
+    "static/css/main.fed58d0c.css",
     "static/js/main.4e4cea20.js"
   ]
 }
