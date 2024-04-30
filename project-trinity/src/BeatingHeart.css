@@ -14,7 +14,6 @@
     position: relative; 
     z-index: 0;  
     width: 100%;
-   
 }
 
 .sunmoon img {
@@ -26,7 +25,6 @@
     z-index: 11;
     width: 50%;
     margin-top: -30%;
-    
 }
 
 .Spinning-logo {
@@ -82,7 +80,6 @@
     position: relative; 
     z-index: 0;  
     width: 100%;
-  
   }
 
   .sunmoon img {

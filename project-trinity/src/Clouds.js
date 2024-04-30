@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import "./Flower.css";
+import "./Clouds.css";
 
 const Flower = () => {
   return (

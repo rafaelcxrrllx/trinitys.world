@@ -1,11 +1,10 @@
 import './App.css';
 import NavBar from './NavBar';
-import React, { useState } from 'react';
+import React from 'react';
 import './styles.css'; // Global Styling
 import LoadingScreen from './LoadingScreen';
 import Canvas from './Canvas';
-// import Aurora from './Aurora';
-import {motion, AnimatePresence} from "framer-motion";
+import {motion} from "framer-motion";
 import BeatingHeart from './BeatingHeart';
 import eye from './assets/trinity-eye.svg';
 import FlowerOfLife from './FlowerOfLife';

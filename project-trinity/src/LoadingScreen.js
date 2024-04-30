@@ -15,7 +15,6 @@ function LoadingScreen() {
         const timeoutId = setTimeout(() => {
             // Hide loading screen after data is loaded
             setVisible(false);
-
         }, 1000); // 3 seconds delay (adjust as needed)
         return () => clearTimeout(timeoutId);
     }, []);

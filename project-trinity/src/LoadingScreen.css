@@ -61,7 +61,7 @@ body {
   @media (max-width: 600px) {
     .App-logo {
         width: 33%;
-        margin-top: -250%;
+        margin-top: -300%;
     }
   }
   

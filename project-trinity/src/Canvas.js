@@ -1,11 +1,10 @@
 
 import './styles.css'; // Global Styling
 import { startCanvasAnimation } from './CanvasAnimation';
-import {motion, AnimatePresence} from "framer-motion";
-import React, { useState } from 'react';
+import {motion} from "framer-motion";
+import React from 'react';
 import "./Canvas.css";
 import { useEffect } from 'react'; // Import useEffect
-
 
 
 
