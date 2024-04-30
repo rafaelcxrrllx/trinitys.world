@@ -1,0 +1,568 @@
+// Variables
+
+$orange-light: #fecf4e;
+$orange: #a62a44;
+$orange-dark: #310441;
+
+$blue-light: #70a27d;
+$blue: #4552a1;
+$blue-dark: #371a6a;
+
+$bg-light: #ee7752;
+$bg-semi: #e73c7e;
+$bg-middle: #23a6d5;
+$bg-dark: #23d5ab;
+
+
+
+.Haven-container {
+  position: relative;
+  width: 1500px;
+  height: 1500px;
+  margin: 100px auto;
+  background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
+  background-size: 400% 400%;
+  animation: daylight 15s ease infinite;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  border: 10px solid #000;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(black, .3),
+              inset 0 0 0 72px rgba(black, .05),
+              inset 0 0 0 138px rgba(black, .05),
+              inset 0 0 0 204px rgba(black, .05),
+              inset 0 0 0 270px rgba(black, .05),
+              inset 0 0 0 336px rgba(black, .05),
+              inset 0 0 0 402px rgba(black, .05),
+              inset 0 0 0 468px rgba(black, .05),
+              inset 0 0 0 534px rgba(black, .05),
+              inset 0 0 0 600px rgba(black, .05);
+}
+
+.planet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(to bottom, $orange-light 1%, $orange 50%, $orange-dark 100%);
+  border-radius: 50%;
+  transform: rotate(-15deg) translate(-35%, -55%);
+}
+
+
+.orbit {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+
+.orbit-1 {
+    animation: orbit-1 3s linear infinite;
+  }
+  
+@keyframes orbit-1 {
+from { transform: rotate(0deg) translateX(138px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(138px  ) rotate(-360deg) }
+} 
+
+.orbit-2 {
+    animation: orbit-2 6s linear infinite;
+  }
+  
+@keyframes orbit-2 {
+from { transform: rotate(0deg) translateX(204px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(204px  ) rotate(-360deg) }
+} 
+
+.orbit-3 {
+    animation: orbit-3 9s linear infinite;
+  }
+  
+@keyframes orbit-3 {
+from { transform: rotate(0deg) translateX(270px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(270px  ) rotate(-360deg) }
+} 
+
+.orbit-4 {
+    animation: orbit-4 12s linear infinite;
+  }
+  
+@keyframes orbit-4 {
+from { transform: rotate(0deg) translateX(336px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(336px  ) rotate(-360deg) }
+} 
+
+.orbit-5 {
+    animation: orbit-5 15s linear infinite;
+  }
+  
+@keyframes orbit-5 {
+from { transform: rotate(0deg) translateX(402px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(402px  ) rotate(-360deg) }
+} 
+
+.orbit-5 {
+    animation: orbit-5 18s linear infinite;
+  }
+  
+@keyframes orbit-5 {
+from { transform: rotate(0deg) translateX(468px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(468px  ) rotate(-360deg) }
+} 
+
+.orbit-6 {
+    animation: orbit-6 21s linear infinite;
+  }
+  
+@keyframes orbit-6 {
+from { transform: rotate(0deg) translateX(534px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(534px  ) rotate(-360deg) }
+} 
+
+.orbit-7 {
+    animation: orbit-7 24s linear infinite;
+  }
+  
+@keyframes orbit-7 {
+from { transform: rotate(0deg) translateX(600px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(600px  ) rotate(-360deg) }
+} 
+
+.orbit-8 {
+    animation: orbit-8 27s linear infinite;
+  }
+  
+@keyframes orbit-8 {
+from { transform: rotate(0deg) translateX(600px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(600px  ) rotate(-360deg) }
+} 
+
+.orbit-9 {
+    animation: orbit-9 30s linear infinite;
+  }
+  
+@keyframes orbit-9 {
+from { transform: rotate(0deg) translateX(666px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
+} 
+
+
+@keyframes daylight {
+  0%   { background-position: 0% 50%   }
+  50%  { background-position: 100% 50% }
+  100% { background-position: 0% 50%   }
+}
+
+
+
+@media (max-width: 600px) {
+   
+    .Haven-container {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
+        background-size: 400% 400%;
+        animation: daylight 15s ease infinite;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        border: 10px solid #000;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(black, .3),
+                    inset 0 0 0 176px rgba(black, .05),
+                    inset 0 0 0 154px rgba(black, .05),
+                    inset 0 0 0 132px rgba(black, .05),
+                    inset 0 0 0 110px rgba(black, .05),
+                    inset 0 0 0 88px rgba(black, .05),
+                    inset 0 0 0 66px rgba(black, .05),
+                    inset 0 0 0 44px rgba(black, .05),
+                    inset 0 0 0 22px rgba(black, .05),
+                    inset 0 0 0 0px rgba(black, .05);
+      }
+      
+      .planet {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+        width: 30px;
+        height: 30px;
+        background: linear-gradient(to bottom, $orange-light 1%, $orange 50%, $orange-dark 100%);
+        border-radius: 50%;
+        transform: rotate(-15deg) translate(-35%, -55%);
+      }
+      
+      
+      .orbit {
+        width: 5px;
+        height: 5px;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 49%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        z-index: 9;
+      }
+      
+      .orbit-1 {
+          animation: orbit-1 3s linear infinite;
+        }
+        
+      @keyframes orbit-1 {
+      from { transform: rotate(0deg) translateX(20px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(20px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-2 {
+          animation: orbit-2 6s linear infinite;
+        }
+        
+      @keyframes orbit-2 {
+      from { transform: rotate(0deg) translateX(42px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(42px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-3 {
+          animation: orbit-3 9s linear infinite;
+        }
+        
+      @keyframes orbit-3 {
+      from { transform: rotate(0deg) translateX(64px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(64px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-4 {
+          animation: orbit-4 12s linear infinite;
+        }
+        
+      @keyframes orbit-4 {
+      from { transform: rotate(0deg) translateX(86px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(86px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-5 {
+          animation: orbit-5 15s linear infinite;
+        }
+        
+      @keyframes orbit-5 {
+      from { transform: rotate(0deg) translateX(108px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(108px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-6 {
+          animation: orbit-6 18s linear infinite;
+        }
+        
+      @keyframes orbit-6 {
+      from { transform: rotate(0deg) translateX(132px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(132px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-7 {
+          animation: orbit-7 21s linear infinite;
+        }
+        
+      @keyframes orbit-7 {
+      from { transform: rotate(0deg) translateX(154px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(154px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-8 {
+          animation: orbit-8 24s linear infinite;
+        }
+        
+      @keyframes orbit-8 {
+      from { transform: rotate(0deg) translateX(177px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(177px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-9 {
+          animation: orbit-9 27s linear infinite;
+        }
+        
+      @keyframes orbit-9 {
+      from { transform: rotate(0deg) translateX(195px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(195px  ) rotate(-360deg) }
+      } 
+      
+      
+      
+      @keyframes daylight {
+        0%   { background-position: 0% 50%   }
+        50%  { background-position: 100% 50% }
+        100% { background-position: 0% 50%   }
+      }
+  
+    
+ 
+  }
+  
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    
+    .Haven-container {
+        position: relative;
+        width: 600px;
+        height: 600px;
+        margin: 100px auto;
+        background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
+        background-size: 400% 400%;
+        animation: daylight 15s ease infinite;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        border: 10px solid #000;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(black, .3),
+                    inset 0 0 0 250px rgba(black, .05),
+                    inset 0 0 0 219px rgba(black, .05),
+                    inset 0 0 0 188px rgba(black, .05),
+                    inset 0 0 0 157px rgba(black, .05),
+                    inset 0 0 0 126px rgba(black, .05),
+                    inset 0 0 0 95px rgba(black, .05),
+                    inset 0 0 0 64px rgba(black, .05),
+                    inset 0 0 0 33px rgba(black, .05),
+                    inset 0 0 0 0px rgba(black, .05);
+      }
+      
+      .orbit {
+        width: 10px;
+        height: 10px;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 49%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        z-index: 9;
+      }
+      
+      .orbit-1 {
+          animation: orbit-1 6s linear infinite;
+        }
+        
+      @keyframes orbit-1 {
+      from { transform: rotate(0deg) translateX(77px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(77px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-2 {
+          animation: orbit-2 9s linear infinite;
+        }
+        
+      @keyframes orbit-2 {
+      from { transform: rotate(0deg) translateX(105px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(105px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-3 {
+          animation: orbit-3 12s linear infinite;
+        }
+        
+      @keyframes orbit-3 {
+      from { transform: rotate(0deg) translateX(133px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(133px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-4 {
+          animation: orbit-4 15s linear infinite;
+        }
+        
+      @keyframes orbit-4 {
+      from { transform: rotate(0deg) translateX(170px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(170px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-5 {
+          animation: orbit-5 18s linear infinite;
+        }
+        
+      @keyframes orbit-5 {
+      from { transform: rotate(0deg) translateX(200px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(200px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-6 {
+          animation: orbit-6 21s linear infinite;
+        }
+        
+      @keyframes orbit-6 {
+      from { transform: rotate(0deg) translateX(230px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(230px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-7 {
+          animation: orbit-7 24s linear infinite;
+        }
+        
+      @keyframes orbit-7 {
+      from { transform: rotate(0deg) translateX(265px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(265px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-8 {
+          animation: orbit-8 27s linear infinite;
+        }
+        
+      @keyframes orbit-8 {
+      from { transform: rotate(0deg) translateX(295px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(295px  ) rotate(-360deg) }
+      } 
+      
+      .orbit-9 {
+          animation: orbit-9 3s linear infinite;
+        }
+        
+      @keyframes orbit-9 {
+      from { transform: rotate(0deg) translateX(44px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(44px  ) rotate(-360deg) }
+      } 
+      
+      
+      
+      @keyframes daylight {
+        0%   { background-position: 0% 50%   }
+        50%  { background-position: 100% 50% }
+        100% { background-position: 0% 50%   }
+      }
+    
+
+  }
+  
+  @media (min-width: 1025px) {
+
+
+.Haven-container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: 100px auto;
+    background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
+    background-size: 400% 400%;
+    animation: daylight 15s ease infinite;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    border: 10px solid #000;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(black, .3),
+                inset 0 0 0 430px rgba(black, .05),
+                inset 0 0 0 369px rgba(black, .05),
+                inset 0 0 0 308px rgba(black, .05),
+                inset 0 0 0 247px rgba(black, .05),
+                inset 0 0 0 186px rgba(black, .05),
+                inset 0 0 0 125px rgba(black, .05),
+                inset 0 0 0 64px rgba(black, .05),
+                inset 0 0 0 0px rgba(black, .05),      
+  }
+  
+  .orbit {
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+  }
+  
+  .orbit-1 {
+      animation: orbit-1 6s linear infinite;
+    }
+    
+  @keyframes orbit-1 {
+  from { transform: rotate(0deg) translateX(120px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(120px  ) rotate(-360deg) }
+  } 
+  
+  .orbit-2 {
+      animation: orbit-2 9s linear infinite;
+    }
+    
+  @keyframes orbit-2 {
+  from { transform: rotate(0deg) translateX(180px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(180px  ) rotate(-360deg) }
+  } 
+  
+  .orbit-3 {
+      animation: orbit-3 12s linear infinite;
+    }
+    
+  @keyframes orbit-3 {
+  from { transform: rotate(0deg) translateX(240px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(240px  ) rotate(-360deg) }
+  } 
+  
+  .orbit-4 {
+      animation: orbit-4 15s linear infinite;
+    }
+    
+  @keyframes orbit-4 {
+  from { transform: rotate(0deg) translateX(305px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(305px  ) rotate(-360deg) }
+  } 
+  
+  .orbit-5 {
+      animation: orbit-5 18s linear infinite;
+    }
+    
+  @keyframes orbit-5 {
+  from { transform: rotate(0deg) translateX(365px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(365px  ) rotate(-360deg) }
+  } 
+  
+  .orbit-6 {
+      animation: orbit-6 21s linear infinite;
+    }
+    
+  @keyframes orbit-6 {
+  from { transform: rotate(0deg) translateX(425px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(425px  ) rotate(-360deg) }
+  } 
+  
+  .orbit-7 {
+      animation: orbit-7 24s linear infinite;
+    }
+    
+  @keyframes orbit-7 {
+  from { transform: rotate(0deg) translateX(490px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(490px  ) rotate(-360deg) }
+  } 
+  
+  .orbit-8 {
+      animation: orbit-8 27s linear infinite;
+    }
+    
+  @keyframes orbit-8 {
+  from { transform: rotate(0deg) translateX(590px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(590px  ) rotate(-360deg) }
+  } 
+  
+  .orbit-9 {
+      animation: orbit-9 3s linear infinite;
+    }
+    
+  @keyframes orbit-9 {
+  from { transform: rotate(0deg) translateX(60px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(60px  ) rotate(-360deg) }
+  } 
+  
+  
+  
+  @keyframes daylight {
+    0%   { background-position: 0% 50%   }
+    50%  { background-position: 100% 50% }
+    100% { background-position: 0% 50%   }
+  }
+
+  
+  }

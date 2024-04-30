@@ -4,12 +4,13 @@ import "./FlowerOfLife.css";
 import "./styles.css"
 import {motion} from "framer-motion";
 import Clouds from './Clouds';
-
+import FlowerCarousel from "./FlowerCarousel"
 function FlowerOfLife() {
 
   
     return (
         <div className='FlowerDiv'>
+            {/* <FlowerCarousel /> */}
             <motion.img     
             initial={{ opacity: 0 }} // Initial opacity and scale of the image
             animate={{ opacity: 1, y: -33 }} // Fade in and scale in animation

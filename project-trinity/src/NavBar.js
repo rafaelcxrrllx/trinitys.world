@@ -29,9 +29,9 @@ function NavBar() {
         style = {boxStyle}>
         <div>
             <div className='logo'>
-                <img onClick={toggleMenu} src={logo}  alt="logo" />
+                <img  src={logo}  alt="logo" />
             </div>
-            <div onClick={toggleMenu} id="mainListDiv" className={`main_list ${isOpen ? 'show_list' : ''}`}>
+            <div  id="mainListDiv" className={`main_list ${isOpen ? 'show_list' : ''}`}>
                 <ul className="navlinks">
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">Work</a></li>

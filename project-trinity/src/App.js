@@ -8,6 +8,7 @@ import {motion} from "framer-motion";
 import BeatingHeart from './BeatingHeart';
 import eye from './assets/trinity-eye.svg';
 import FlowerOfLife from './FlowerOfLife';
+import Haven from './Haven';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             <BeatingHeart/>
           </motion.div>
           <FlowerOfLife/> 
+          <Haven/>
         </motion.div>   
         <Canvas/>
       </header>     
