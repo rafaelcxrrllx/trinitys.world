@@ -48,7 +48,7 @@ function Haven() {
 				<div class="orbit orbit-9">
 				<img src={neptune} />
 				</div> 
-				<div class="orbit orbit-9">
+				<div class="orbit orbit-10">
 				<img src={pluto} />
 				</div> 
 			</div>
