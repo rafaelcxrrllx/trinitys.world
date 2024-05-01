@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinitys.world/static/css/main.fed58d0c.css",
-    "main.js": "/trinitys.world/static/js/main.4e4cea20.js",
+    "main.css": "/trinitys.world/static/css/main.15d09a1c.css",
+    "main.js": "/trinitys.world/static/js/main.9e6369ac.js",
     "static/js/453.1d42ff05.chunk.js": "/trinitys.world/static/js/453.1d42ff05.chunk.js",
     "static/media/skeleton.svg": "/trinitys.world/static/media/skeleton.8ba7dbef0fac7cc14a6d0cf9b2f77a93.svg",
     "static/media/clouds.svg": "/trinitys.world/static/media/clouds.dd6683c8cd0de1a0e04e.svg",
@@ -11,13 +11,24 @@
     "static/media/pointer.svg": "/trinitys.world/static/media/pointer.458d686e194750d44d91.svg",
     "static/media/clicker.svg": "/trinitys.world/static/media/clicker.542fb5d55b405e6496ad.svg",
     "static/media/trinity.svg": "/trinitys.world/static/media/trinity.157d41607db79f2e1018a3cb679127d0.svg",
+    "static/media/neptune.svg": "/trinitys.world/static/media/neptune.a3da9e8f6f492a5b31019c5fdeea3de0.svg",
+    "static/media/mercury.svg": "/trinitys.world/static/media/mercury.80ca3d3ccab5835a23d71a95d20f00cb.svg",
+    "static/media/pluto.svg": "/trinitys.world/static/media/pluto.40c76313eae30b9abbdca094bc53ef00.svg",
+    "static/media/earth.svg": "/trinitys.world/static/media/earth.73af74f839e0ce553cc52d5955c07270.svg",
+    "static/media/uranus.svg": "/trinitys.world/static/media/uranus.218f2a53d18802c966dcf979f29ecd1c.svg",
+    "static/media/saturn.svg": "/trinitys.world/static/media/saturn.9a4b47fa449c558d9e18c24ec93a7f56.svg",
+    "static/media/venus.svg": "/trinitys.world/static/media/venus.9e4165a41e18b400f0cfad842a39cb30.svg",
+    "static/media/sol.svg": "/trinitys.world/static/media/sol.165efda49679ac422cace982b478f5c9.svg",
+    "static/media/moon.svg": "/trinitys.world/static/media/moon.abe8da14789d9e30c106552223da7311.svg",
+    "static/media/mars.svg": "/trinitys.world/static/media/mars.f08fe40a1834bfde33a181cab923b99b.svg",
+    "static/media/jupiter.svg": "/trinitys.world/static/media/jupiter.dd16d779ffee0acbcb30ca9570adcb40.svg",
     "index.html": "/trinitys.world/index.html",
-    "main.fed58d0c.css.map": "/trinitys.world/static/css/main.fed58d0c.css.map",
-    "main.4e4cea20.js.map": "/trinitys.world/static/js/main.4e4cea20.js.map",
+    "main.15d09a1c.css.map": "/trinitys.world/static/css/main.15d09a1c.css.map",
+    "main.9e6369ac.js.map": "/trinitys.world/static/js/main.9e6369ac.js.map",
     "453.1d42ff05.chunk.js.map": "/trinitys.world/static/js/453.1d42ff05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fed58d0c.css",
-    "static/js/main.4e4cea20.js"
+    "static/css/main.15d09a1c.css",
+    "static/js/main.9e6369ac.js"
   ]
 }
