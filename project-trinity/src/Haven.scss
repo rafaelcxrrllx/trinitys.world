@@ -17,15 +17,15 @@ $bg-dark: #23d5ab;
 
 .Haven-container {
   position: relative;
-  width: 1500px;
-  height: 1500px;
+  width: 1700px;
+  height: 1700px;
   margin: 100px auto;
-  background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
+  background: linear-gradient(-45deg, #fff, #2370bc,  #2398bc,  #bc2344,  #bc2323, #fff);
   background-size: 400% 400%;
   animation: daylight 15s ease infinite;
   border-radius: 50%;
-  border: 10px solid #fff;
-  border: 10px solid #000;
+//   border: 10px solid #fff;
+//   border: 10px solid #000;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(black, .3),
               inset 0 0 0 72px rgba(black, .05),
@@ -42,7 +42,7 @@ $bg-dark: #23d5ab;
 .Heaven-container {
     width: 100%;
     height: 100%;
-    // background: linear-gradient(to top, #191970, #121251,  #ffffff);
+    background: linear-gradient(to top, #191970, #bdbdbd,  #ffffff, #ffffff);
     padding-top: 1%;
 }
 
@@ -62,13 +62,13 @@ $bg-dark: #23d5ab;
 .orbit {
   width: 20px;
   height: 20px;
-  background: white;
+//   background: white;
   border-radius: 50%;
   position: absolute;
   top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9;
+  z-index: 2;
 }
 
 .orbit img {
@@ -81,7 +81,7 @@ $bg-dark: #23d5ab;
 
 
 .orbit-1 {
-    animation: orbit-1 3s linear infinite;
+    animation: orbit-1 1s linear infinite;
   }
   
 @keyframes orbit-1 {
@@ -90,7 +90,7 @@ to   { transform: rotate(360deg) translateX(138px  ) rotate(-360deg) }
 } 
 
 .orbit-2 {
-    animation: orbit-2 6s linear infinite;
+    animation: orbit-2 2s linear infinite;
   }
   
 @keyframes orbit-2 {
@@ -99,7 +99,7 @@ to   { transform: rotate(360deg) translateX(204px  ) rotate(-360deg) }
 } 
 
 .orbit-3 {
-    animation: orbit-3 9s linear infinite;
+    animation: orbit-3 3s linear infinite;
   }
   
 @keyframes orbit-3 {
@@ -108,7 +108,7 @@ to   { transform: rotate(360deg) translateX(270px  ) rotate(-360deg) }
 } 
 
 .orbit-4 {
-    animation: orbit-4 12s linear infinite;
+    animation: orbit-4 5s linear infinite;
   }
   
 @keyframes orbit-4 {
@@ -117,7 +117,7 @@ to   { transform: rotate(360deg) translateX(336px  ) rotate(-360deg) }
 } 
 
 .orbit-5 {
-    animation: orbit-5 15s linear infinite;
+    animation: orbit-5 8s linear infinite;
   }
   
 @keyframes orbit-5 {
@@ -126,7 +126,7 @@ to   { transform: rotate(360deg) translateX(402px  ) rotate(-360deg) }
 } 
 
 .orbit-5 {
-    animation: orbit-5 18s linear infinite;
+    animation: orbit-5 13s linear infinite;
   }
   
 @keyframes orbit-5 {
@@ -144,7 +144,7 @@ to   { transform: rotate(360deg) translateX(534px  ) rotate(-360deg) }
 } 
 
 .orbit-7 {
-    animation: orbit-7 24s linear infinite;
+    animation: orbit-7 34s linear infinite;
   }
   
 @keyframes orbit-7 {
@@ -153,7 +153,7 @@ to   { transform: rotate(360deg) translateX(600px  ) rotate(-360deg) }
 } 
 
 .orbit-8 {
-    animation: orbit-8 27s linear infinite;
+    animation: orbit-8 55s linear infinite;
   }
   
 @keyframes orbit-8 {
@@ -162,13 +162,19 @@ to   { transform: rotate(360deg) translateX(600px  ) rotate(-360deg) }
 } 
 
 .orbit-9 {
-    animation: orbit-9 30s linear infinite;
+    animation: orbit-9 89s linear infinite;
   }
   
 @keyframes orbit-9 {
 from { transform: rotate(0deg) translateX(666px ) rotate(0deg)      }
 to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
 } 
+
+.orbit-10 {
+    animation: orbit-10 144s linear infinite;
+  }
+  
+  
 
 
 @keyframes daylight {
@@ -185,12 +191,11 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         position: relative;
         width: 400px;
         height: 400px;
-        background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
         background-size: 400% 400%;
         animation: daylight 15s ease infinite;
         border-radius: 50%;
-        border: 10px solid #fff;
-        border: 10px solid #000;
+        // border: 10px solid #fff;
+        // border: 10px solid #000;
         overflow: hidden;
         box-shadow: 0 0 20px rgba(black, .3),
                     inset 0 0 0 186px rgba(black, .05),
@@ -220,19 +225,16 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
       .orbit {
         width: 5px;
         height: 5px;
-        background: white;
+        // background: white;
         border-radius: 50%;
         position: absolute;
         top: 49%;
         left: 49%;
         transform: translate(-50%, -50%);
-        z-index: 9;
+        z-index: 2;
       }
       
-      .orbit-1 {
-          animation: orbit-1 3s linear infinite;
-        }
-        
+    
       @keyframes orbit-1 {
       from { transform: rotate(0deg) translateX(10px ) rotate(0deg)      }
       to   { transform: rotate(360deg) translateX(10px  ) rotate(-360deg) }
@@ -244,13 +246,11 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         
       }
       
-      .orbit-2 {
-          animation: orbit-2 6s linear infinite;
-        }
+    
         
       @keyframes orbit-2 {
-      from { transform: rotate(0deg) translateX(30px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(30px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(25px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(25px  ) rotate(-360deg) }
       } 
 
       .orbit-2 img {
@@ -259,13 +259,11 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         
       }
       
-      .orbit-3 {
-          animation: orbit-3 9s linear infinite;
-        }
+    
         
       @keyframes orbit-3 {
-      from { transform: rotate(0deg) translateX(44px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(44px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(40px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(40px  ) rotate(-360deg) }
       } 
 
       .orbit-3 img {
@@ -273,14 +271,11 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         margin-left: -1px;
         
       }
-      
-      .orbit-4 {
-          animation: orbit-4 12s linear infinite;
-        }
+    
         
       @keyframes orbit-4 {
-      from { transform: rotate(0deg) translateX(66px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(66px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(60px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(60px  ) rotate(-360deg) }
       } 
 
       .orbit-4 img {
@@ -288,27 +283,21 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         margin-left: -1px;
       }
       
-      .orbit-5 {
-          animation: orbit-5 15s linear infinite;
-        }
+  
         
       @keyframes orbit-5 {
-      from { transform: rotate(0deg) translateX(88px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(88px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(80px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(80px  ) rotate(-360deg) }
       } 
 
       .orbit-5 img {
         margin-top: -1px;
         margin-left: -1px;
       }
-      
-      .orbit-6 {
-          animation: orbit-6 18s linear infinite;
-        }
-        
+   
       @keyframes orbit-6 {
-      from { transform: rotate(0deg) translateX(112px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(112px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(105px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(105px  ) rotate(-360deg) }
       } 
 
       .orbit-6 img {
@@ -316,36 +305,27 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         margin-left: -1px;
       }
       
-      .orbit-7 {
-          animation: orbit-7 21s linear infinite;
-        }
-        
+     
       @keyframes orbit-7 {
-      from { transform: rotate(0deg) translateX(134px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(134px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(125px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(125px  ) rotate(-360deg) }
       } 
-      
-      .orbit-8 {
-          animation: orbit-8 24s linear infinite;
-        }
+  
         
       @keyframes orbit-8 {
-      from { transform: rotate(0deg) translateX(157px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(157px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(150px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(150px  ) rotate(-360deg) }
       } 
 
       .orbit-8 img {
         margin-top: -1px;
         margin-left: -1px;
       }
-      
-      .orbit-9 {
-          animation: orbit-9 27s linear infinite;
-        }
+     
         
       @keyframes orbit-9 {
-      from { transform: rotate(0deg) translateX(175px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(175px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(170px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(170px  ) rotate(-360deg) }
       } 
 
       .orbit-10 img {
@@ -353,18 +333,20 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         margin-left: -1px;
       }
 
-      .orbit-10 {
-        animation: orbit-10 30s linear infinite;
-      }
       
     @keyframes orbit-10 {
-    from { transform: rotate(0deg) translateX(195px ) rotate(0deg)      }
-    to   { transform: rotate(360deg) translateX(195px  ) rotate(-360deg) }
+    from { transform: rotate(0deg) translateX(190px ) rotate(0deg)      }
+    to   { transform: rotate(360deg) translateX(190px  ) rotate(-360deg) }
     } 
 
     .orbit-9 img {
       margin-top: -1px;
       margin-left: -1px;
+    }
+
+    #terra {
+        margin-top: 8px;
+        margin-left: 3px;
     }
       
       
@@ -387,12 +369,11 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         width: 600px;
         height: 600px;
         margin: 100px auto;
-        background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
         background-size: 400% 400%;
         animation: daylight 15s ease infinite;
         border-radius: 50%;
-        border: 10px solid #fff;
-        border: 10px solid #000;
+        // border: 10px solid #fff;
+        // border: 10px solid #000;
         overflow: hidden;
         box-shadow: 0 0 20px rgba(black, .3),
                     inset 0 0 0 281px rgba(black, .05),
@@ -410,22 +391,20 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
       .orbit {
         width: 10px;
         height: 10px;
-        background: white;
+        // background: white;
         border-radius: 50%;
         position: absolute;
         top: 49%;
         left: 49%;
         transform: translate(-50%, -50%);
-        z-index: 9;
+        z-index: 2;
       }
       
-      .orbit-1 {
-          animation: orbit-1 3s linear infinite;
-        }
+     
         
       @keyframes orbit-1 {
-      from { transform: rotate(0deg) translateX(24px) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(24px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(14px) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(14px  ) rotate(-360deg) }
       } 
 
       .orbit-1 img {
@@ -433,82 +412,107 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
         margin-left: -5px;
       }
       
-      .orbit-2 {
-          animation: orbit-2 6s linear infinite;
-        }
         
       @keyframes orbit-2 {
-      from { transform: rotate(0deg) translateX(47px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(47px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(35px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(35px  ) rotate(-360deg) }
       } 
 
       .orbit-2 img {
         margin-top: -5px;
         margin-left: -3px;
       }
-      
-      .orbit-3 {
-          animation: orbit-3 9s linear infinite;
-        }
+   
         
       @keyframes orbit-3 {
-      from { transform: rotate(0deg) translateX(105px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(105px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(65px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(65px  ) rotate(-360deg) }
       } 
-      
-      .orbit-4 {
-          animation: orbit-4 12s linear infinite;
-        }
+
+      .orbit-3 img {
+        margin-top: -3px;
+        margin-left: -3px;
+      }
         
       @keyframes orbit-4 {
-      from { transform: rotate(0deg) translateX(133px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(133px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(95px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(95px  ) rotate(-360deg) }
       } 
+
+      .orbit-4 img {
+        margin-top: -2px;
+        margin-left: -2px;
+      }
       
-      .orbit-5 {
-          animation: orbit-5 15s linear infinite;
-        }
+      
         
       @keyframes orbit-5 {
-      from { transform: rotate(0deg) translateX(170px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(170px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(125px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(125px  ) rotate(-360deg) }
       } 
       
-      .orbit-6 {
-          animation: orbit-6 18s linear infinite;
-        }
+    
         
       @keyframes orbit-6 {
-      from { transform: rotate(0deg) translateX(200px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(200px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(155px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(155px  ) rotate(-360deg) }
       } 
-      
-      .orbit-7 {
-          animation: orbit-7 21s linear infinite;
-        }
+
+      .orbit-6 img {
+        margin-top: -5px;
+        margin-left: -3px;
+      }
+     
         
       @keyframes orbit-7 {
-      from { transform: rotate(0deg) translateX(230px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(230px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(190px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(190px  ) rotate(-360deg) }
       } 
+
+      .orbit-7 img {
+        margin-top: -5px;
+        margin-left: -3px;
+      }
       
-      .orbit-8 {
-          animation: orbit-8 24s linear infinite;
-        }
+    
         
       @keyframes orbit-8 {
-      from { transform: rotate(0deg) translateX(265px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(265px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(220px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(220px  ) rotate(-360deg) }
       } 
+
+      .orbit-8 img {
+        margin-top: -2px;
+        margin-left: -3px;
+      }
       
-      .orbit-9 {
-          animation: orbit-9 27s linear infinite;
-        }
         
       @keyframes orbit-9 {
-      from { transform: rotate(0deg) translateX(295px ) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(295px  ) rotate(-360deg) }
+      from { transform: rotate(0deg) translateX(250px ) rotate(0deg)      }
+      to   { transform: rotate(360deg) translateX(250px  ) rotate(-360deg) }
       } 
+
+      .orbit-9 img {
+        margin-top: -1px;
+        margin-left: -3px;
+      }
+
+      
+
+      @keyframes orbit-10 {
+        from { transform: rotate(0deg) translateX(280px ) rotate(0deg)      }
+        to   { transform: rotate(360deg) translateX(280px  ) rotate(-360deg) }
+        } 
+  
+        .orbit-10 img {
+          margin-top: -1px;
+          margin-left: -3px;
+        }
+
+        #terra {
+            margin-top: 9px;
+            margin-left: 3px;
+        }
       
       
       
@@ -529,28 +533,28 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
     width: 1000px;
     height: 1000px;
     margin: 100px auto;
-    background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
     background-size: 400% 400%;
     animation: daylight 15s ease infinite;
     border-radius: 50%;
-    border: 10px solid #fff;
-    border: 10px solid #000;
+    // border: 10px solid #fff;
+    // border: 10px solid #000;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(black, .3),
-                inset 0 0 0 430px rgba(black, .05),
-                inset 0 0 0 369px rgba(black, .05),
-                inset 0 0 0 308px rgba(black, .05),
-                inset 0 0 0 247px rgba(black, .05),
-                inset 0 0 0 186px rgba(black, .05),
-                inset 0 0 0 125px rgba(black, .05),
-                inset 0 0 0 64px rgba(black, .05),
-                inset 0 0 0 3px rgba(black, .05),      
+                inset 0 0 0 450px rgba(black, .05),
+                inset 0 0 0 400px rgba(black, .05),
+                inset 0 0 0 350px rgba(black, .05),
+                inset 0 0 0 300px rgba(black, .05),
+                inset 0 0 0 250px rgba(black, .05),
+                inset 0 0 0 200px rgba(black, .05),
+                inset 0 0 0 150px rgba(black, .05),
+                inset 0 0 0 100px rgba(black, .05),   
+                inset 0 0 0 50px rgba(black, .05);   
   }
   
   .orbit {
     width: 15px;
     height: 15px;
-    background: white;
+    // background: white;
     border-radius: 50%;
     position: absolute;
     top: 49%;
@@ -559,86 +563,99 @@ to   { transform: rotate(360deg) translateX(666px  ) rotate(-360deg) }
     z-index: 9;
   }
   
-  .orbit-1 {
-      animation: orbit-1 6s linear infinite;
-    }
+  
     
   @keyframes orbit-1 {
-  from { transform: rotate(0deg) translateX(60px ) rotate(0deg)      }
-  to   { transform: rotate(360deg) translateX(60px  ) rotate(-360deg) }
+  from { transform: rotate(0deg) translateX(30px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(30px  ) rotate(-360deg) }
   } 
+
+  .orbit-1 img {
+    margin-top: -9px;
+    margin-left: -9px;
+  }
   
-  .orbit-2 {
-      animation: orbit-2 9s linear infinite;
-    }
+
     
   @keyframes orbit-2 {
-  from { transform: rotate(0deg) translateX(120px ) rotate(0deg)      }
-  to   { transform: rotate(360deg) translateX(120px  ) rotate(-360deg) }
+  from { transform: rotate(0deg) translateX(75px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(75px  ) rotate(-360deg) }
   } 
+
+  .orbit-2 img {
+    margin-top: -9px;
+    margin-left: -4px;
+  }
   
-  .orbit-3 {
-      animation: orbit-3 12s linear infinite;
-    }
-    
   @keyframes orbit-3 {
-  from { transform: rotate(0deg) translateX(180px ) rotate(0deg)      }
-  to   { transform: rotate(360deg) translateX(180px  ) rotate(-360deg) }
+  from { transform: rotate(0deg) translateX(130px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(130px  ) rotate(-360deg) }
   } 
+
+  .orbit-3 img {
+    margin-top: -3px;
+    margin-left: -3px;
+  }
   
-  .orbit-4 {
-      animation: orbit-4 15s linear infinite;
-    }
-    
   @keyframes orbit-4 {
-  from { transform: rotate(0deg) translateX(240px ) rotate(0deg)      }
-  to   { transform: rotate(360deg) translateX(240px  ) rotate(-360deg) }
+  from { transform: rotate(0deg) translateX(175px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(175px  ) rotate(-360deg) }
   } 
+
+  .orbit-4 img {
+    margin-top: -4px;
+    margin-left: -4px;
+  }
   
-  .orbit-5 {
-      animation: orbit-5 18s linear infinite;
-    }
-    
+
   @keyframes orbit-5 {
-  from { transform: rotate(0deg) translateX(305px ) rotate(0deg)      }
-  to   { transform: rotate(360deg) translateX(305px  ) rotate(-360deg) }
+  from { transform: rotate(0deg) translateX(225px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(225px  ) rotate(-360deg) }
   } 
   
-  .orbit-6 {
-      animation: orbit-6 21s linear infinite;
-    }
+
     
   @keyframes orbit-6 {
-  from { transform: rotate(0deg) translateX(365px ) rotate(0deg)      }
-  to   { transform: rotate(360deg) translateX(365px  ) rotate(-360deg) }
+  from { transform: rotate(0deg) translateX(280px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(280px  ) rotate(-360deg) }
   } 
   
-  .orbit-7 {
-      animation: orbit-7 24s linear infinite;
-    }
-    
+
   @keyframes orbit-7 {
+  from { transform: rotate(0deg) translateX(330px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(330px  ) rotate(-360deg) }
+  } 
+  
+
+    
+  @keyframes orbit-8 {
+  from { transform: rotate(0deg) translateX(375px ) rotate(0deg)      }
+  to   { transform: rotate(360deg) translateX(375px  ) rotate(-360deg) }
+  } 
+  
+
+    
+  @keyframes orbit-9 {
   from { transform: rotate(0deg) translateX(425px ) rotate(0deg)      }
   to   { transform: rotate(360deg) translateX(425px  ) rotate(-360deg) }
   } 
+
+
   
-  .orbit-8 {
-      animation: orbit-8 27s linear infinite;
-    }
-    
-  @keyframes orbit-8 {
-  from { transform: rotate(0deg) translateX(490px ) rotate(0deg)      }
-  to   { transform: rotate(360deg) translateX(490px  ) rotate(-360deg) }
-  } 
-  
-  .orbit-9 {
-      animation: orbit-9 3s linear infinite;
-    }
-    
-  @keyframes orbit-9 {
-  from { transform: rotate(0deg) translateX(590px ) rotate(0deg)      }
-  to   { transform: rotate(360deg) translateX(590px  ) rotate(-360deg) }
-  } 
+@keyframes orbit-10 {
+from { transform: rotate(0deg) translateX(480px ) rotate(0deg)      }
+to   { transform: rotate(360deg) translateX(480px  ) rotate(-360deg) }
+} 
+
+.orbit-10 img {
+    margin-top: -3px;
+    margin-left: -5px;
+}
+
+#terra {
+    margin-top: 10px;
+    margin-left: 5px;
+}
   
   
   

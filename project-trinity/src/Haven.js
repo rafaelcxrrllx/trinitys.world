@@ -3,6 +3,7 @@ import "./styles.css"
 import "./Haven.scss"
 import {motion} from "framer-motion";
 import moon from './assets/planets/moon.svg';
+import earth from './assets/planets/earth.svg';
 import sol from './assets/planets/sol.svg';
 import mars from './assets/planets/mars.svg';
 import venus from './assets/planets/venus.svg';
@@ -50,6 +51,9 @@ function Haven() {
 				</div> 
 				<div class="orbit orbit-10">
 				<img src={pluto} />
+				</div> 
+				<div id="terra" class="orbit orbit-11">
+				<img src={earth} />
 				</div> 
 			</div>
 		</div>
