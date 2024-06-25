@@ -31,7 +31,7 @@ function NavBar() {
             <div className='logo'>
                 <img  src={logo}  alt="logo" />
             </div>
-            <div  id="mainListDiv" className={`main_list ${isOpen ? 'show_list' : ''}`}>
+            {/* <div  id="mainListDiv" className={`main_list ${isOpen ? 'show_list' : ''}`}>
                 <ul className="navlinks">
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">Work</a></li>
@@ -81,7 +81,7 @@ function NavBar() {
                 <li>About</li>
             </motion.ul>
             </div>
-            )}
+            )} */}
         </div>
     </motion.nav>
     );

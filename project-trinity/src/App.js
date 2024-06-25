@@ -9,6 +9,7 @@ import BeatingHeart from './BeatingHeart';
 import eye from './assets/trinity-eye.svg';
 import FlowerOfLife from './FlowerOfLife';
 import Haven from './Haven';
+import Zodiac from './Zodiac';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
           </motion.div>
           <FlowerOfLife/> 
           <Haven/>
+          <Zodiac/>
         </motion.div>   
         <Canvas/>
       </header>     

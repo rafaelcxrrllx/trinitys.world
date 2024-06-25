@@ -20,6 +20,11 @@ function Haven() {
   
     return (
 		<div class="Heaven-container">
+			<div>
+				<h2>
+					The Soular System
+				</h2>
+			</div>
 			<div class="Haven-container">
 				{/* <!-- orbits --> */}
 				<div class="orbit orbit-1">
@@ -56,7 +61,18 @@ function Haven() {
 				<img src={earth} alt='Earth'/>
 				</div> 
 			</div>
+			<div className='quote'>
+			<p>
+				"Whether these cycle recurrences will bring about positive and constructive, 
+				or negative and destructive, reactions, depends entirely on one's chemical 
+				condition"
+			</p>
+			<p>
+				- Dr. George W. Carey, The Cell Salts of Salvation
+			</p>
 		</div>
+		</div>
+		
 		
 
     );
